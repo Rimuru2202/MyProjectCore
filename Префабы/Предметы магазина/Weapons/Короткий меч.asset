@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 513a04ec553fb0049b9b80da8ff23af2, type: 3}
+  m_Name: "\u041A\u043E\u0440\u043E\u0442\u043A\u0438\u0439 \u043C\u0435\u0447"
+  m_EditorClassIdentifier: 
+  itemName: "\u041A\u043E\u0440\u043E\u0442\u043A\u0438\u0439 \u043C\u0435\u0447"
+  description: 
+  icon: {fileID: 21300000, guid: 4e12f4b9588235f4d96aa69b4e77ef5f, type: 3}
+  cost: 75
+  costCurrency: 0
+  category: 0
+  itemType: 0
+  armorType: 0
+  damage: 13
+  defense: 0
+  healthRegen: 0
+  attackSpeed: 0
+  hasBonus: 0
+  bonusDescription: 
+  equipmentPrefab: {fileID: 4608539629123721982, guid: 0c3ba69cd7e5ca94dabdf78e671b89f8,
+    type: 3}

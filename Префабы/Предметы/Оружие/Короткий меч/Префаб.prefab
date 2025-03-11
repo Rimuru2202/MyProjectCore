@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3690061841858815919
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 30971cd1fa4a8f249ae4cb95c7c08668,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 750
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 30971cd1fa4a8f249ae4cb95c7c08668,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 750
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 30971cd1fa4a8f249ae4cb95c7c08668,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 750
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 30971cd1fa4a8f249ae4cb95c7c08668,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 47.73541
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 30971cd1fa4a8f249ae4cb95c7c08668,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.11
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 30971cd1fa4a8f249ae4cb95c7c08668,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -19.072996
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 30971cd1fa4a8f249ae4cb95c7c08668,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 30971cd1fa4a8f249ae4cb95c7c08668,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 30971cd1fa4a8f249ae4cb95c7c08668,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 30971cd1fa4a8f249ae4cb95c7c08668,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 30971cd1fa4a8f249ae4cb95c7c08668,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 30971cd1fa4a8f249ae4cb95c7c08668,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 30971cd1fa4a8f249ae4cb95c7c08668,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 30971cd1fa4a8f249ae4cb95c7c08668,
+        type: 3}
+      propertyPath: m_Name
+      value: "\u041F\u0440\u0435\u0444\u0430\u0431"
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 30971cd1fa4a8f249ae4cb95c7c08668,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8507185389958395231}
+  m_SourcePrefab: {fileID: 100100000, guid: 30971cd1fa4a8f249ae4cb95c7c08668, type: 3}
+--- !u!1 &4608539629123721982 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 30971cd1fa4a8f249ae4cb95c7c08668,
+    type: 3}
+  m_PrefabInstance: {fileID: 3690061841858815919}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8507185389958395231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4608539629123721982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7303f9aed0d06324f82985c4f05668c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 0
+  itemName: "\u041A\u043E\u0440\u043E\u0442\u043A\u0438\u0439 \u043C\u0435\u0447"
+  quality: 1
+  damage: 22
+  effects: "\u0411\u0435\u0437 \u044D\u0444\u0444\u0435\u043A\u0442\u043E\u0432"
+  defense: 0
+  bonusStats: 0
+  currentDurability: 150
+  maxDurability: 150
+  level: 5
+  potionEffect: 0
+  restoreAmount: 0
+  restoreDuration: 0
+  cooldownTime: 0
+  minCurrencyValue: 1
+  maxCurrencyValue: 1
+  isQuestItem: 0
+  additionalInfo: "\u041F\u0440\u043E\u0441\u0442\u043E\u0439 \u043A\u043E\u0440\u043E\u0442\u043A\u0438\u0439
+    \u043C\u0435\u0447"
+  icon: {fileID: 21300000, guid: 4e12f4b9588235f4d96aa69b4e77ef5f, type: 3}
+  dividerLine: _________________
+  equipPositionOffset: {x: -0.044, y: -0.036, z: 0.352}
+  equipRotationOffset: {x: -155.023, y: -58.75101, z: 88.974}
+  equipScale: {x: 75, y: 75, z: 75}
+  bonusDefense: 0
+  bonusHealth: 0
+  bonusDamage: 0
+  bonusCritChance: 0
+  bonusRunSpeed: 0
+  bonusStamina: 0
+  reductionStaminaCost: 0
+  healthRegenDelay: 0
+  healthRegenAmount: 0
+  healthRegenDuration: 0

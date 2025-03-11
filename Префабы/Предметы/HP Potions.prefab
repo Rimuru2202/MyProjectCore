@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2010717516835567030
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5384279843128591509}
+  - component: {fileID: 6574906978966684635}
+  - component: {fileID: 7804787711146951009}
+  - component: {fileID: 1086409454693744712}
+  m_Layer: 5
+  m_Name: HP Potions
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &5384279843128591509
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2010717516835567030}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 128, y: 384}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &6574906978966684635
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2010717516835567030}
+  m_CullTransparentMesh: 1
+--- !u!114 &7804787711146951009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2010717516835567030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 3936f53c57eebbd439e305d0d6775156, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 1
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &1086409454693744712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2010717516835567030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7303f9aed0d06324f82985c4f05668c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 8
+  itemName: "\u0417\u0435\u043B\u044C\u0435 \u0437\u0434\u043E\u0440\u043E\u0432\u044C\u044F"
+  quality: 2
+  damage: 0
+  effects: +25% HP on 5 sec
+  defense: 0
+  bonusStats: No Bonus
+  currentDurability: 0
+  maxDurability: 0
+  level: 1
+  potionEffect: 0
+  restoreAmount: 400
+  restoreDuration: 5
+  cooldownTime: 17
+  minCurrencyValue: 1
+  maxCurrencyValue: 1
+  isQuestItem: 0
+  additionalInfo: "\u0412\u043E\u0441\u0441\u0442\u0430\u043D\u0430\u0432\u043B\u0438\u0432\u0430\u0435\u0442
+    400 \u0437\u0434\u043E\u0440\u043E\u0432\u044C\u044F \u0432 \u0442\u0435\u0447\u0435\u043D\u0438\u0438
+    5 \u0441\u0435\u043A\u0443\u043D\u0434"
+  icon: {fileID: 21300000, guid: 3936f53c57eebbd439e305d0d6775156, type: 3}
+  dividerLine: 
+  equipPositionOffset: {x: 0, y: 0, z: 0}
+  equipRotationOffset: {x: 0, y: 0, z: 0}
+  equipScale: {x: 1, y: 1, z: 1}
+  bonusDefense: 0
+  bonusHealth: 0
+  bonusDamage: 0
+  bonusCritChance: 0
+  bonusRunSpeed: 0
+  bonusStamina: 0
+  reductionStaminaCost: 0
+  healthRegenDelay: 0
+  healthRegenAmount: 0
+  healthRegenDuration: 0

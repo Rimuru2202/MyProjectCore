@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 513a04ec553fb0049b9b80da8ff23af2, type: 3}
+  m_Name: HPpotion
+  m_EditorClassIdentifier: 
+  itemName: "\u0417\u0435\u043B\u044C\u0435 \u0437\u0434\u043E\u0440\u043E\u0432\u044C\u044F"
+  icon: {fileID: 21300000, guid: 3936f53c57eebbd439e305d0d6775156, type: 3}
+  cost: 1
+  costCurrency: 1
+  category: 2
+  equipmentPrefab: {fileID: 2010717516835567030, guid: 65a1e6a958fc69546a427891756ab750,
+    type: 3}
